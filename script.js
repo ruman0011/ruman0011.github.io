@@ -1,9 +1,7 @@
-// Smooth scroll to section
+
 function scrollToSection(id) {
     document.getElementById(id).scrollIntoView({ behavior: "smooth" });
 }
-
-// Scroll reveal animation
 window.addEventListener("scroll", reveal);
 
 function reveal() {
@@ -19,8 +17,6 @@ function reveal() {
         }
     }
 }
-
-// NAVBAR SHRINK ON SCROLL
 window.addEventListener("scroll", function () {
     const navbar = document.querySelector(".navbar");
 
